@@ -1,0 +1,9 @@
+.faq { display: flex; flex-direction: column; gap: 14px; max-width: 800px; margin: 0 auto; }
+.faq__item { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; transition: box-shadow 0.3s ease; }
+.faq__item--open { box-shadow: var(--shadow-md); border-color: #c7dbff; }
+.faq__question {
+  width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  padding: 20px 24px; font-weight: 700; color: var(--navy); font-size: 1rem; text-align: left;
+}
+.faq__question svg { color: var(--primary); flex-shrink: 0; }
+.faq__answer { padding: 0 24px 22px; color: var(--text-muted); font-size: 0.94rem; }

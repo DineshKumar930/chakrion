@@ -1,0 +1,11 @@
+.animated-text {
+  display: inline-flex; align-items: center;
+  color: var(--primary); font-weight: 800;
+}
+.animated-text__caret {
+  width: 3px; height: 1em; margin-left: 4px;
+  background: var(--primary);
+  animation: blink 1s steps(1) infinite;
+  border-radius: 2px;
+}
+@keyframes blink { 50% { opacity: 0; } }

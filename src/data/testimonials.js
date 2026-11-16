@@ -1,0 +1,7 @@
+export const testimonials = [
+  { name: "Dr. Atul Prakash", role: "Ass. Manager, CSC SPV", quote: "Chakrion delivered an outstanding college website with a modern design, smooth navigation, and excellent functionality. Truly impressed with their work and professionalism!", avatar: "images/prof.png", rating: 5 },
+  { name: "Mr. Adarsh Singh", role: "Founder, IGES India", quote: "The sports website looks amazing! It perfectly showcases our athletes, events, and activities with a modern and engaging experience.", avatar: "images/prof.png", rating: 5 },
+  { name: "Mr. Prabhat Yadav", role: "Founder, Srijan Foundation(NGO)", quote: "The donation management system made our NGO operations smoother and more transparent. Managing donations and tracking contributions has never been easier!", avatar: "images/prof.png", rating: 5 },
+  { name: "Ms. Muneeta Singh", role: "Director, MS Coaching Dhanbad", quote: "Chakrion Technologies created an amazing coaching website for us. It beautifully showcases our courses and makes it easier for students to connect and enroll!", avatar: "images/prof.png", rating: 5 },
+  { name: "Mr. Aditya Nath Sharma", role: "Founder, AV Wooden Craft", quote: "Chakrion Technologies created a beautiful, modern website for our carpentry business. It showcases our furniture designs perfectly and helps us reach more customers online!", avatar: "images/prof.png", rating: 5 },
+  ];
