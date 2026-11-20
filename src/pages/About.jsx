@@ -350,7 +350,7 @@ export default function About() {
                     {m.qualification}
                   </div>
 
-                  <p>{m.description}</p>
+              
                 </div>
               </motion.div>
             ))}
