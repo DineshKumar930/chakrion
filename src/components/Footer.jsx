@@ -83,10 +83,12 @@ export default function Footer() {
           </Link>
 
           <p>
-            Chakrion Technologies builds premium digital experiences —
-            web, mobile, ERP and AI solutions that drive measurable
-            business growth.
-          </p>
+  Chakrion Technologies builds premium digital experiences —
+  web, mobile, ERP and AI solutions that drive measurable
+  business growth.
+  <br />
+  <span>Under the IGES (Indian Group of Education and Sports)</span>
+</p>
 
           <div className="footer__social">
             {socialLinks.map((social) => (
