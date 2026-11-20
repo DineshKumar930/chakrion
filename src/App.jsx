@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
@@ -9,8 +10,26 @@ import ProjectDetails from "./pages/ProjectDetails";
 import Contact from "./pages/Contact";
 import FloatingContactButtons from "./components/FloatingContactButtons";
 import "./App.css";
+import Loader from "./components/Loader";
+import Careers from "./pages/Careers";
 
 export default function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader/>;
+  }
+
+
   return (
     <MainLayout>
       <AnimatePresence mode="wait">
@@ -20,6 +39,8 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:slug" element={<ProjectDetails />} />
+
+          <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>

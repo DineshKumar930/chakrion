@@ -1,0 +1,135 @@
+.loader-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-content {
+  text-align: center;
+  color: white;
+  animation: loaderAppear 0.8s ease;
+}
+
+.logo-orbit {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.06);
+  box-shadow: 0 0 35px rgba(59,130,246,0.3);
+  z-index: 2;
+}
+
+.loader-logo img {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.orbit {
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.orbit-one {
+  border-top-color: #38bdf8;
+  border-right-color: #6366f1;
+  animation: orbitRotate 2s linear infinite;
+}
+
+.orbit-two {
+  inset: 9px;
+  border-bottom-color: #a855f7;
+  border-left-color: #38bdf8;
+  animation: orbitRotate 1.5s linear infinite reverse;
+}
+.orbit-third {
+  inset: 9px;
+  border-bottom-color: #a855f7;
+  border-left-color: #38bdf8;
+  animation: orbitRotate 1.5s linear infinite reverse;
+}
+
+.loader-content h2 {
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.loader-content h2 span {
+  color: #0b47b8;
+}
+
+.loader-content p {
+  color: #aab5cc;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+
+.loading-line {
+  width: 190px;
+  height: 3px;
+  background: #202b43;
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.loading-line span {
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, #38bdf8, #a855f7);
+  animation: loadingProgress 1.5s ease-in-out infinite;
+}
+
+.loader-content small {
+  display: block;
+  color: #64748b;
+  font-size: 9px;
+  letter-spacing: 3px;
+  margin-top: 17px;
+}
+
+@keyframes orbitRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingProgress {
+  0% { transform: translateX(-110%); }
+  100% { transform: translateX(350%); }
+}
+
+@keyframes loaderAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -10,7 +10,7 @@ const navLinks = [
   { name: "Home", to: "/" },
   { name: "About", to: "/about" },
   {
-    name: "Services",
+    name: "Our Services",
     to: "/services",
     dropdown: [
       { name: "Website Development", to: "/services#web" },
@@ -22,6 +22,7 @@ const navLinks = [
     ],
   },
   { name: "Portfolio", to: "/portfolio" },
+  { name: "Careers", to: "/careers" },
   { name: "Contact", to: "/contact" },
 ];
 
@@ -197,7 +198,7 @@ export default function Header() {
             >
               {/* ---- Drawer header with close button ---- */}
               <div className="header__mobile-top">
-                <span className="header__mobile-title">Menu</span>
+                <span className="header__mobile-title">Chakrion Technologies</span>
                 <button
                   type="button"
                   className="header__mobile-close"

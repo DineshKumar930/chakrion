@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 import "./FloatingContactButtons.css";
 
 const FloatingContactButtons = () => {
-  const phoneNumber = "919876543210"; // Replace with your number
+  const phoneNumber = "917715970852"; // Replace with your number
 
   const whatsappMessage = encodeURIComponent(
     "Hello Chakrion Technologies! I want to know more about your services."

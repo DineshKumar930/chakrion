@@ -113,12 +113,12 @@ export default function Contact() {
             <div className="contact__info-card">
               <h3>Contact Information</h3>
               <a href="mailto:chakriontech@gmail.com"><Mail size={18} /> chakriontech@gmail.com</a>
-              <a href="tel:+919118668889"><Phone size={18} /> +91 9118668889</a>
+              <a href="tel:+917715970852"><Phone size={18} /> +91 7715970852</a>
               <p><MapPin size={18} />Infront of UCO Bank, Ugapur Aurai,Bhadohi-221301, Uttar Pradesh, India</p>
             </div>
 
             <a
-              href="https://wa.me/919118668889?text=Hi%20Chakrion%2C%20I%27d%20like%20to%20discuss%20a%20project"
+              href="https://wa.me/917715970852?text=Hi%20Chakrion%2C%20I%27d%20like%20to%20discuss%20a%20project"
               className="contact__whatsapp"
               target="_blank"
               rel="noopener noreferrer"

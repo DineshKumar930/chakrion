@@ -52,9 +52,18 @@ const values = [
 ];
 
 const team = [
-  {
+    {
+    name: "Er. Kuwarsingh P. Yadav",
+    role: "CEO (Chief Executive Officer)",
+    qualification: "B.Tech | MBA (IT & HR)",
+    description:
+      "Business Strategy, Management, Client Relations & Operations",
+    img: "images/kuvar.jpeg",
+    number: "02",
+  },
+{
     name: "Er. Dinesh Kumar",
-    role: "Co-Founder & CTO",
+    role: "CTO (Chief Technology Officer)",
     qualification: "B.Tech | MBA (IT & Operations)",
     description:
       "Technology Strategy, Full Stack Development, ERP & Software Architecture",
@@ -62,26 +71,17 @@ const team = [
     number: "01",
   },
   {
-    name: "Er. Kuwarsingh P. Yadav",
-    role: "Co-Founder & CEO",
-    qualification: "B.Tech | MBA (IT & HR)",
-    description:
-      "Business Strategy, Management, Client Relations & Operations",
-    img: "images/kuvar.jpeg",
-    number: "02",
-  },
-  {
     name: "Er. Vinay Kumar",
-    role: "Co-Founder & Lead Software Engineer",
+    role: "Technical Lead (Full Stack Developer)",
     qualification: "B.Tech (CSE)",
     description:
       "Software Development, Application Development & Technical Implementation",
-    img: "images/gkuvar.jpeg",
+    img: "images/vinay.png",
     number: "03",
   },
   {
     name: "Er. Prince Kumar",
-    role: "Co-Founder & Software Engineer",
+    role: "Team Lead (Full Stack Developer)",
     qualification: "B.Tech | MBA (IT & Operations)",
     description:
       "Web Applications, ERP Solutions & Software Development",
@@ -89,12 +89,12 @@ const team = [
     number: "04",
   },
   {
-    name: "Er. Ranjeet Kumar",
-    role: "Co-Founder & Head of HR",
+    name: "Mr. Ranjeet Kumar",
+    role: "Sr. HR - Executive",
     qualification: "B.Tech | MBA (HR & Operations)",
     description:
       "Human Resource Management, Team Coordination & Operations",
-    img: "images/ranjeet.jpeg",
+    img: "images/ranjeet.png",
     number: "05",
   },
 ];

@@ -24,7 +24,7 @@ export const projects = [
     description: "A complete ERP for an agri-business to manage inventory, finance, and logistics in one place.",
     image: "images/ai.png",
     tech: ["React", "Express", "MySQL"],
-    live: "#", details: "Implemented AI-driven chatbots that reduced customer support response time by 60% and improved user engagement.",
+    live: "https://gpsai.netlify.app/", details: "Implemented AI-driven chatbots that reduced customer support response time by 60% and improved user engagement.",
   },
     {
     slug: "av-wooden-craft",

@@ -4,6 +4,7 @@ import Button from "./Button";
 import AnimatedText from "./AnimatedText";
 import heroVisual from "../assets/ss.gif";
 import "./Hero.css";
+import NewsTicker from "./NewsTicker";
 
 export default function Hero() {
   return (
@@ -53,6 +54,7 @@ export default function Hero() {
           <img src={heroVisual} alt="Technology illustration" />
         </motion.div>
       </div>
+      <NewsTicker />
     </section>
   );
 }

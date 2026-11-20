@@ -135,9 +135,9 @@ export default function Footer() {
             <span>chakriontech@gmail.com</span>
           </a>
 
-          <a href="tel:+919118668889">
+          <a href="tel:+917715970852">
             <Phone size={17} />
-            <span>+91 9118668889</span>
+            <span>+91 7715970852</span>
           </a>
 
           <p>
