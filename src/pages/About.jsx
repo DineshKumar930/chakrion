@@ -53,7 +53,7 @@ const values = [
 
 const team = [
     {
-    name: "Er. Kuwarsingh P. Yadav",
+    name: "Mr. Kuwarsingh P. Yadav",
     role: "CEO (Chief Executive Officer)",
     qualification: "B.Tech | MBA (IT & HR)",
     description:
@@ -62,7 +62,7 @@ const team = [
     number: "02",
   },
 {
-    name: "Er. Dinesh Kumar",
+    name: "Mr. Dinesh Kumar",
     role: "CTO (Chief Technology Officer)",
     qualification: "B.Tech | MBA (IT & Operations)",
     description:
@@ -71,7 +71,7 @@ const team = [
     number: "01",
   },
   {
-    name: "Er. Vinay Kumar",
+    name: "Mr. Vinay Kumar Bind",
     role: "Technical Lead (Full Stack Developer)",
     qualification: "B.Tech (CSE)",
     description:
@@ -80,7 +80,7 @@ const team = [
     number: "03",
   },
   {
-    name: "Er. Prince Kumar",
+    name: "Mr. Prince Kumar",
     role: "Team Lead (Full Stack Developer)",
     qualification: "B.Tech | MBA (IT & Operations)",
     description:
