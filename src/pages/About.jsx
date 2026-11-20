@@ -327,7 +327,7 @@ export default function About() {
               >
                 <div className="about__member-top">
                   <span className="about__member-number">
-                    {m.number}
+                    
                   </span>
                   <span className="about__member-badge">
                     <CheckCircle2 size={13} /> Founding Team
