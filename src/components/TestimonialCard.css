@@ -1,0 +1,14 @@
+.testimonial-card {
+  background: #fff; border-radius: var(--radius);
+  padding: 30px; border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm); height: 100%;
+  display: flex; flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+.testimonial-card__stars { display: flex; gap: 3px; color: #f5a623; margin-bottom: 16px; }
+.testimonial-card blockquote { font-size: 0.98rem; color: var(--navy-soft); line-height: 1.65; flex-grow: 1; }
+.testimonial-card__author { display: flex; align-items: center; gap: 12px; margin-top: 22px; }
+.testimonial-card__author img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.testimonial-card__author strong { display: block; color: var(--navy); font-size: 0.95rem; }
+.testimonial-card__author span { font-size: 0.82rem; color: var(--text-muted); }

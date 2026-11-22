@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    slug: "nova-crm",
+    title: "College Website",
+    category: "Web Application",
+    description: "Chakrion delivered an outstanding college website with a modern design, smooth navigation, and excellent functionality. Truly impressed with their work and professionalism!",
+    image: "images/gps.png",
+    tech: ["React", "Node.js", "MangoDB", "AWS"],
+    live: "https://www.gpsahjanwa.in", details: "Built a modular CRM that scales to 10k users. Delivered in 14 weeks with 99.99% uptime.",
+  },
+  {
+    slug: "medisync-app",
+    title: "IGES India",
+    category: "Modern Web App",
+    description: "The sports website looks amazing! It perfectly showcases our athletes, events, and activities with a modern and engaging experience.",
+    image: "images/iges.png",
+    tech: ["React", "Node.js", "Tailwind CSS","MangoDB","AWS"],
+    live: "https://www.iges.org.in", details: "Integrated video consultation and secure messaging. 4.9-star average on app stores.",
+  },
+  {
+    slug: "aurora-erp",
+    title: "AI Chatbot",
+    category: "Custom AI Bot",
+    description: "A complete ERP for an agri-business to manage inventory, finance, and logistics in one place.",
+    image: "images/ai.png",
+    tech: ["React", "Express", "MySQL"],
+    live: "https://gpsai.netlify.app/", details: "Implemented AI-driven chatbots that reduced customer support response time by 60% and improved user engagement.",
+  },
+    {
+    slug: "av-wooden-craft",
+    title: "AV Wooden Craft",
+    category: "E-commerce",
+    description: "A modern e-commerce platform for selling handmade wooden crafts.",
+    image: "images/av.png",
+    tech: ["React", "Node.js", "MongoDB", "AWS"],
+    live: "https://avwoodencraft.netlify.app/", details: "Boosted conversion rate by 38% and cut page load times to under 1.2s.",
+  },
+  {
+    slug: "ms-coaching",
+    title: "MS Coaching Dhanbad",
+    category: "Web Application",
+    description: "Chakrion Technologies created an amazing coaching website for us. It beautifully showcases our courses and makes it easier for students to connect and enroll!",
+    image: "images/ms.png",
+    tech: ["React", "Node.js", "MySQL", "Tailwind CSS"],
+    live: "https://mymsclasses.netlify.app/", details: "Implemented a secure student portal with real-time notifications and progress tracking, enhancing student engagement.",
+  },
+  {
+    slug: "aurora-erp",
+    title: "Srijan Foundation(NGO)",
+    category: "Web Design",
+    description: "The donation management system made our NGO operations smoother and more transparent. Managing donations and tracking contributions has never been easier!",
+    image: "images/srijan.png",
+    tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+    live: "https://srijandk.netlify.app/", details: "Implemented a secure donation portal with real-time tracking and reporting, increasing donor trust and engagement.",
+  },
+];
+
+export const categories = ["All", "Web Application", "Mobile App", "ERP Software", "E-commerce", "AI Chatbot", "Web Design"];
