@@ -1,7 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
+import {
+  Menu,
+  X,
+  ChevronDown,
+  ArrowRight,
+  Mail,
+  Phone,
+} from "lucide-react";
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import "./Header.css";
@@ -83,6 +90,45 @@ export default function Header() {
   return (
     <>
       <header className={`header ${scrolled ? "header--scrolled" : ""}`}>
+
+
+{/* Top Contact Bar */}
+<div className="header__topbar">
+  <div className="container header__topbar-inner">
+
+    <a
+      href="mailto:chakriontech@gmail.com"
+      className="header__topbar-item"
+    >
+      <Mail size={15} />
+      <span>chakriontech@gmail.com</span>
+    </a>
+
+    <span className="header__topbar-divider" />
+
+    <a
+      href="tel:+917715970852"
+      className="header__topbar-item"
+    >
+      <Phone size={15} />
+      <span>+91 77159 70852</span>
+    </a>
+
+    <div className="header__topbar-tagline">
+      <span>Web</span>
+      <i />
+      <span>Mobile App</span>
+      <i />
+      <span>ERP</span>
+      <i />
+      <span>AI Solutions</span>
+    </div>
+
+  </div>
+</div>
+
+
+
         <div className="container header__inner">
           <Link to="/" className="header__logo" aria-label="Chakrion Technologies Home">
             <img src={logo} alt="Chakrion Technologies logo" />
