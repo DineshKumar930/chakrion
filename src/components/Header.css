@@ -324,7 +324,7 @@
 /* Small Mobile */
 @media (max-width: 380px) {
   .header__topbar-inner {
-    gap: 8px;
+    gap: 60px;
     font-size: 10px;
   }
 
